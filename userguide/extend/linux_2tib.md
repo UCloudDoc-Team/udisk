@@ -36,35 +36,35 @@
     ![](/images/userguide/extend/parted-2tib.png) 
     
   - 查看磁盘分区是否成功。  
-    ![](/storage_cdn/udisk/userguide/extend/lsblk-2tib.png) 
+    ![](/images/userguide/extend/lsblk-2tib.png) 
     
   - 格式化对应磁盘分区。  
     `注：本操作以xfs文件系统为例，如果想格式化为ext4文件系统，请执行命令mkfs.ext4 /dev/vdb1`  
-    ![](/storage_cdn/udisk/userguide/extend/mkfs-2tib.png)  
+    ![](/images/userguide/extend/mkfs-2tib.png)  
     
   - 使用mount命令挂载磁盘。  
-    ![](/storage_cdn/udisk/userguide/extend/mount-2tib-no1.png)  
+    ![](/images/userguide/extend/mount-2tib-no1.png)  
 
 **扩容大于2TiB磁盘**  
 
   - 查看当前挂载情况、文件系统类型及分区情况。  
-    ![](/storage_cdn/udisk/userguide/extend/df-th-2tib.png)  
+    ![](/images/userguide/extend/df-th-2tib.png)  
     `注：若为裸盘数据盘（无分区），请参考裸盘数据盘_Linux章节扩容。`  
 
 
 
   - 在操作系统与控制台中卸载云硬盘，具体步骤见[卸载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/umount)章节。通过云盘控制台扩容云硬盘。  
   
-    ![](/storage_cdn/udisk/userguide/extend/image-2tib-1.png)  
-    ![](/storage_cdn/udisk/userguide/extend/image-2tib-2.png)  
+    ![](/images/userguide/extend/image-2tib-1.png)  
+    ![](/images/userguide/extend/image-2tib-2.png)  
     
   - 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/mount)章节。挂载完成后，在操作系统内查看磁盘大小。  
-    ![](/storage_cdn/udisk/userguide/extend/fdisk-2tib-2.png)
+    ![](/images/userguide/extend/fdisk-2tib-2.png)
     
   - 使用parted命令删除原来的分区并创建新分区。  
   - parted /dev/vdb  
-    ![](/storage_cdn/udisk/userguide/extend/unit-2tib.png)  
-    ![](/storage_cdn/udisk/userguide/extend/mkpart-2tib.png)  
+    ![](/images/userguide/extend/unit-2tib.png)  
+    ![](/images/userguide/extend/mkpart-2tib.png)  
 
 `注：删除分区不会造成数据盘内数据的丢失。`
 
@@ -74,21 +74,21 @@
 **xfs文件系统**  
 
   - 执行xfs\_repair /dev/vdb1检查文件系统。  
-    ![](/storage_cdn/udisk/userguide/extend/xfs_repair-2tib.png)  
+    ![](/images/userguide/extend/xfs_repair-2tib.png)  
     
   - 使用mount命令，重新挂载磁盘。  
-    ![](/storage_cdn/udisk/userguide/extend/mount-2tib-2.png)  
+    ![](/images/userguide/extend/mount-2tib-2.png)  
     
   - 执行xfs\_growfs命令扩容。  
-    ![](/storage_cdn/udisk/userguide/extend/xfs_growfs-2tib.png)  
+    ![](/images/userguide/extend/xfs_growfs-2tib.png)  
 
 **ext文件系统**  
 
   - 执行e2fsck –f /dev/vdb1命令检查文件系统。  
-    ![](/storage_cdn/udisk/userguide/extend/e2fsck-2tib-2.png)  
+    ![](/images/userguide/extend/e2fsck-2tib-2.png)  
     
   - 执行resize2fs /dev/vdb1进行扩容操作。  
-    ![](/storage_cdn/udisk/userguide/extend/resize2fs-2tib-2.png)  
+    ![](/images/userguide/extend/resize2fs-2tib-2.png)  
     
   - 使用mount命令，重新挂载磁盘。  
-    ![](/storage_cdn/udisk/userguide/extend/mount-2tib-3.png)
+    ![](/images/userguide/extend/mount-2tib-3.png)
