@@ -19,7 +19,7 @@
 ### 操作须知：
 
   - 本示例使用fdisk命令作为案例，parted命令不能与fdisk命令交叉使用。  
-    \* 本示例中，云硬盘挂载点为/dev/vdb，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。  
+  - 本示例中，云硬盘挂载点为/dev/vdb，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。  
 
 ### 具体操作：
 
@@ -32,27 +32,33 @@
   - 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。通过云盘控制台扩容云硬盘。  
     ![](/storage_cdn/udisk/userguide/extend/image31.jpg)  
     ![](/storage_cdn/udisk/userguide/extend/image32.jpg)  
+    
   - 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。挂载完成后，在操作系统内查看磁盘大小。  
     ![](/storage_cdn/udisk/userguide/extend/image33.jpg)  
+    
   - 使用fdisk命令删除第二个分区(/dev/vdb2)并创建新分区。  
     ![](/storage_cdn/udisk/userguide/extend/image34.jpg)  
     ![](/storage_cdn/udisk/userguide/extend/image35.jpg)  
     `注：删除分区不会造成数据盘内数据的丢失。`  
+    
   - 检查文件系统，并扩容。  
     `注：不同文件系统下，检查和扩容的命令不同，请您确认自己的文件系统类型，并按照相应的操作步骤操作。`  
 
-\*\* ext文件系统 \*\*  
+**ext文件系统**  
 
   - 分别执行e2fsck –f /dev/vdb2和 resize2fs /dev/vdb2进行检查和扩容操作。  
     ![](/storage_cdn/udisk/userguide/extend/e2fsck-duo.png)  
   - 使用mount命令，重新挂载磁盘。  
     ![](/storage_cdn/udisk/userguide/extend/mount3.png)  
 
-\*\* xfs文件系统 \*\*  
+**xfs文件系统**  
 
   - 执行xfs\_repair /dev/vdb2检查文件系统。  
     ![](/storage_cdn/udisk/userguide/extend/xfs_repair-duo.png)  
+    
   - 使用mount命令，重新挂载磁盘。  
     ![](/storage_cdn/udisk/userguide/extend/mount4.png)  
+    
   - 执行xfs\_growfs命令扩容。  
     ![](/storage_cdn/udisk/userguide/extend/xfs_growfs-duo.png)
+
