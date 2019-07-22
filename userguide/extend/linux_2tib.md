@@ -21,14 +21,14 @@
   - 本示例环境版本：  
     ![](/storage_cdn/udisk/userguide/extend/cat-2tib.png)  
   - 本示例使用parted命令作为案例，parted命令不能与fdisk命令交叉使用。  
-    \* 本示例中，云硬盘挂载点为/dev/vdb，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。
+  - 本示例中，云硬盘挂载点为/dev/vdb，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。
 
 ### 具体操作：
 
 \*\* 新购数据盘分区 \*\*  
 
   - 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/mount)章节。  
-    \* 挂载完成后，在操作系统内查看磁盘大小。  
+  - 挂载完成后，在操作系统内查看磁盘大小。  
 
 ![](/images/userguide/extend/fdisk-2tib.png)  
 
