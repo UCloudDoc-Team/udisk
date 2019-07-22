@@ -25,7 +25,7 @@
 
 ### 具体操作：
 
-** 新购数据盘分区 **  
+**新购数据盘分区**  
 
   - 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/mount)章节。  
   - 挂载完成后，在操作系统内查看磁盘大小。  
@@ -42,7 +42,7 @@
   - 使用mount命令挂载磁盘。  
     ![](/storage_cdn/udisk/userguide/extend/mount-2tib-no1.png)  
 
-\*\* 扩容大于2TiB磁盘 \*\*  
+**扩容大于2TiB磁盘**  
 
   - 查看当前挂载情况、文件系统类型及分区情况。  
     ![](/storage_cdn/udisk/userguide/extend/df-th-2tib.png)  
