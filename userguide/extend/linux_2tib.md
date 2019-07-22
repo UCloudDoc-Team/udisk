@@ -56,7 +56,7 @@
   - 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/mount)章节。挂载完成后，在操作系统内查看磁盘大小。  
     ![](/storage_cdn/udisk/userguide/extend/fdisk-2tib-2.png)  
   - 使用parted命令删除原来的分区并创建新分区。  
-    \* parted /dev/vdb  
+  - parted /dev/vdb  
     ![](/storage_cdn/udisk/userguide/extend/unit-2tib.png)  
     ![](/storage_cdn/udisk/userguide/extend/mkpart-2tib.png)  
 
