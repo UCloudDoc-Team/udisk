@@ -40,7 +40,7 @@
   - 检查文件系统, 并扩容。  
     `注：不同文件系统下，检查和扩容的命令不同，请您确认自己的文件系统类型，并按照相应的操作步骤操作。`  
 
-\*\* ext4文件系统 \*\*  
+** ext4文件系统 **  
 
   - 分别执行e2fsck -f /dev/vdb1和 resize2fs /dev/vdb1进行检查和扩容操作。  
     ![](/storage_cdn/udisk/userguide/extend/e2fsck-f.png)
@@ -50,7 +50,7 @@
   - 使用mount命令，重新挂载磁盘。  
     ![](/storage_cdn/udisk/userguide/extend/image18.jpg)  
 
-\*\* xfs文件系统 \*\*  
+** xfs文件系统 **  
 
   - 执行xfs\_repair /dev/vdb1检查文件系统。  
     ![](/storage_cdn/udisk/userguide/extend/xfs_repair.png)  
