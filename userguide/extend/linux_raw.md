@@ -32,7 +32,7 @@
     ![](/storage_cdn/udisk/userguide/extend/image4.jpg)
     
   * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。挂载完成后，在操作系统内查看磁盘大小。  
-    ![](/storage_cdn/udisk/userguide/extend/image5.jpg) 
+    ![](/images/userguide/extend/image5.jpg) 
     
   * 检查文件系统,并扩容  
     `注：不同文件系统下，检查和扩容的命令不同，请您确认自己的文件系统类型，并按照相应的操作步骤操作。`  
@@ -40,19 +40,19 @@
 **ext4文件系统**  
 
   * 执行e2fsck –f /dev/vdb 检查文件系统。  
-    ![](/storage_cdn/udisk/userguide/extend/image6.jpg)  
+    ![](/images/userguide/extend/image6.jpg)  
   * 执行resize2fs /dev/vdb进行扩容操作。  
-    ![](/storage_cdn/udisk/userguide/extend/resize2fs.png)  
+    ![](/images/userguide/extend/resize2fs.png)  
   * 使用mount命令，重新挂载磁盘。  
-    ![](/storage_cdn/udisk/userguide/extend/mount.png)  
+    ![](/images/userguide/extend/mount.png)  
 
 **xfs文件系统**  
 
   * 执行xfs\_check /dev/vdb 检查文件系统。  
-    ![](/storage_cdn/udisk/userguide/extend/xfs_check.png)  
+    ![](/images/userguide/extend/xfs_check.png)  
   * 或xfs\_repair /dev/vdb命令 检查文件系统。  
-    ![](/storage_cdn/udisk/userguide/extend/xfs_repair.png)  
+    ![](/images/userguide/extend/xfs_repair.png)  
   * 使用mount命令，重新挂载磁盘。  
-    ![](/storage_cdn/udisk/userguide/extend/mount2.png)  
+    ![](/images/userguide/extend/mount2.png)  
   * 执行xfs\_growfs命令扩容。  
-    ![](/storage_cdn/udisk/userguide/extend/xfs_growfs.png)
+    ![](/images/userguide/extend/xfs_growfs.png)
