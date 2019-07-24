@@ -27,13 +27,16 @@
   * 查看当前挂载情况、文件系统类型以及分区情况。。  
     ![](/storage_cdn/udisk/userguide/extend/df-h2.png)  
     `注：lsblk命令结果显示 vdb下只有一个分区vdb1，为单分区，可按照本文档所述方案扩容。其它情况请参考相应的文档进行扩容。`  
+    
   * 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。通过云盘控制台扩容云硬盘。  
-    ![](/storage_cdn/udisk/userguide/extend/image13.jpg)  
-    ![](/storage_cdn/udisk/userguide/extend/image14.jpg)  
+    ![](/images/userguide/extend/image13.png)  
+    ![](/images/userguide/extend/image14.png)  
+    
   * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。挂载完成后，在操作系统内查看磁盘大小。  
-    ![](/storage_cdn/udisk/userguide/extend/image15.jpg)  
+    ![](/images/userguide/extend/image15.png)  
+    
   * 使用fdisk命令删除原来的分区并创建新分区。  
-    ![](/storage_cdn/udisk/userguide/extend/image16.jpg)  
+    ![](/images/userguide/extend/image16.png)  
     `注：删除分区不会造成数据盘内数据的丢失。`
 
 
