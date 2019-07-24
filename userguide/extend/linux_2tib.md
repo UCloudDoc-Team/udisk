@@ -59,10 +59,8 @@
 
 
 
-  * 在操作系统与控制台中卸载云硬盘，具体步骤见[卸载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/umount)章节。通过云盘控制台扩容云硬盘。  
-  
+  * 在操作系统与控制台中卸载云硬盘，具体步骤见[卸载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/umount)章节。通过云盘控制台扩容云硬盘。   
 ![](/images/userguide/extend/image-2tib-1.png)  
-
 ![](/images/userguide/extend/image-2tib-2.png)  
     
   * 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/mount)章节。挂载完成后，在操作系统内查看磁盘大小。
@@ -73,7 +71,6 @@
   * parted /dev/vdb  
   
 ![](/images/userguide/extend/unit-2tib.png) 
-
 ![](/images/userguide/extend/mkpart-2tib.png)  
 
 `注：删除分区不会造成数据盘内数据的丢失。`
@@ -84,29 +81,23 @@
 **xfs文件系统**  
 
   * 执行xfs\_repair /dev/vdb1检查文件系统。 
-
 ![](/images/userguide/extend/xfs_repair-2tib.png)  
     
   * 使用mount命令，重新挂载磁盘。 
-
 ![](/images/userguide/extend/mount-2tib-2.png)  
     
   * 执行xfs\_growfs命令扩容。  
-
 ![](/images/userguide/extend/xfs_growfs-2tib.png)  
 
 **ext文件系统**  
 
   * 执行e2fsck -f /dev/vdb1命令检查文件系统。  
-
 ![](/images/userguide/extend/e2fsck-2tib-2.png)  
     
   * 执行resize2fs /dev/vdb1进行扩容操作。  
-
 ![](/images/userguide/extend/resize2fs-2tib-2.png)  
     
   * 使用mount命令，重新挂载磁盘。
-
 ![](/images/userguide/extend/mount-2tib-3.png)
 
 
