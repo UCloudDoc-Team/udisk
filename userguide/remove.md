@@ -17,5 +17,6 @@
 
   - 在云主机管理页/快照管理标签页内，单击删除按钮。  
     ![](/storage_cdn/udisk/userguide/image15.jpg)  
+    
   - 在云主机管理页/快照管理标签页内，选择您要删除的云硬盘，单击删除按钮批量删除。  
-    ![](/storage_cdn/udisk/userguide/image16.jpg)
+    ![](/images/userguide/image16.jpg)
