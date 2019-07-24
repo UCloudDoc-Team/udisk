@@ -19,20 +19,23 @@
   - 本示例环境版本：
 
 ![](/images/userguide/extend/image38.jpg)  
-\* 本示例中，Disk1为云硬盘挂载点，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。
+* 本示例中，Disk1为云硬盘挂载点，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。
 
 ### 具体操作：
 
-  - 查看当前挂载情况。  
+  * 查看当前挂载情况。  
     ![](/storage_cdn/udisk/userguide/extend/image39.jpg)  
-  - 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。  
-    \* 通过云盘控制台扩容云硬盘。  
+  * 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。  
+  * 通过云盘控制台扩容云硬盘。  
     ![](/storage_cdn/udisk/userguide/extend/image40.jpg)  
+    
     ![](/storage_cdn/udisk/userguide/extend/image41.jpg)  
-  - 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。  
-    \* 挂载完成后，在操作系统内查看磁盘大小。  
+  * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。  
+  * 挂载完成后，在操作系统内查看磁盘大小。  
     ![](/storage_cdn/udisk/userguide/extend/image42.jpg)  
-  - 右键单击新分区E(最后一个分区)空白处，选择“扩展卷”。  
+    
+  * 右键单击新分区E(最后一个分区)空白处，选择“扩展卷”。  
     ![](/storage_cdn/udisk/userguide/extend/image43.jpg)  
-  - 查看扩容后分区情况。  
+    
+  * 查看扩容后分区情况。  
     ![](/storage_cdn/udisk/userguide/extend/image44.jpg)
