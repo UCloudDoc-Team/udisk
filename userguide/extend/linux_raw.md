@@ -1,6 +1,6 @@
 {{indexmenu_n>1}}
 
-# 裸盘数据盘\_Linux
+# 裸盘数据盘_Linux
 
 如果主机之前并未划分过分区，只是使用裸盘格式化使用，那么可以使用如下方法进行扩容。  
 <WRAP center round important 60%>
@@ -21,36 +21,38 @@
 
 ### 具体操作：
 
-  - 查看当前挂载情况、文件系统类型以及分区情况。  
+  * 查看当前挂载情况、文件系统类型以及分区情况。  
     ![](/storage_cdn/udisk/userguide/extend/df-h.png)  
     `注：lsblk命令结果显示vdb下未有分区，为裸设备，可按照本文档所述方案扩容；若vdb下有分区，请参考相应的分区扩容文档。`  
 
 
 
-  - 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。通过云盘控制台扩容云硬盘。  
+  * 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。通过云盘控制台扩容云硬盘。  
     ![](/storage_cdn/udisk/userguide/extend/image3.jpg)  
-    ![](/storage_cdn/udisk/userguide/extend/image4.jpg)  
-  - 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。挂载完成后，在操作系统内查看磁盘大小。  
-    ![](/storage_cdn/udisk/userguide/extend/image5.jpg)  
-  - 检查文件系统,并扩容  
+    ![](/storage_cdn/udisk/userguide/extend/image4.jpg)
+    
+  * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。挂载完成后，在操作系统内查看磁盘大小。  
+    ![](/storage_cdn/udisk/userguide/extend/image5.jpg) 
+    
+  * 检查文件系统,并扩容  
     `注：不同文件系统下，检查和扩容的命令不同，请您确认自己的文件系统类型，并按照相应的操作步骤操作。`  
 
-\*\* ext4文件系统 \*\*  
+**ext4文件系统**  
 
-  - 执行e2fsck –f /dev/vdb 检查文件系统。  
+  * 执行e2fsck –f /dev/vdb 检查文件系统。  
     ![](/storage_cdn/udisk/userguide/extend/image6.jpg)  
-  - 执行resize2fs /dev/vdb进行扩容操作。  
+  * 执行resize2fs /dev/vdb进行扩容操作。  
     ![](/storage_cdn/udisk/userguide/extend/resize2fs.png)  
-  - 使用mount命令，重新挂载磁盘。  
+  * 使用mount命令，重新挂载磁盘。  
     ![](/storage_cdn/udisk/userguide/extend/mount.png)  
 
-\*\* xfs文件系统 \*\*  
+**xfs文件系统**  
 
-  - 执行xfs\_check /dev/vdb 检查文件系统。  
+  * 执行xfs\_check /dev/vdb 检查文件系统。  
     ![](/storage_cdn/udisk/userguide/extend/xfs_check.png)  
-  - 或xfs\_repair /dev/vdb命令 检查文件系统。  
+  * 或xfs\_repair /dev/vdb命令 检查文件系统。  
     ![](/storage_cdn/udisk/userguide/extend/xfs_repair.png)  
-  - 使用mount命令，重新挂载磁盘。  
+  * 使用mount命令，重新挂载磁盘。  
     ![](/storage_cdn/udisk/userguide/extend/mount2.png)  
-  - 执行xfs\_growfs命令扩容。  
+  * 执行xfs\_growfs命令扩容。  
     ![](/storage_cdn/udisk/userguide/extend/xfs_growfs.png)
