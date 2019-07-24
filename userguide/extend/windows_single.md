@@ -32,7 +32,7 @@
 
 ![](/images/userguide/extend/image21.jpg)
     
-![](/storage_cdn/udisk/userguide/extend/image22.jpg)  
+![](/images/userguide/extend/image22.jpg)  
 
 * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。  
 * 挂载完成后，在操作系统内查看磁盘大小。
