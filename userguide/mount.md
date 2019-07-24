@@ -9,12 +9,12 @@
 
 ### 具体操作：
 
-  - 在“云盘管理控制台”中，找到您需要扩容的云硬盘，点击“挂载”按钮。  
-    ![](/storage_cdn/udisk/userguide/image6.jpg)
+* 在“云盘管理控制台”中，找到您需要扩容的云硬盘，点击“挂载”按钮。  
+![](/images/userguide/image6.jpg)
 
 
 
-  - 在“挂载”弹出框中，选择需要挂载的目标主机。  
-    ![](/storage_cdn/udisk/userguide/image7.jpg)
+* 在“挂载”弹出框中，选择需要挂载的目标主机。  
+![](/images/userguide/image7.jpg)
 
 ![](/images/userguide/image8.jpg)
