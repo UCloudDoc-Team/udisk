@@ -15,9 +15,11 @@
 
   - Linux卸载云硬盘，使用umount命令。  
     ![](/storage_cdn/udisk/userguide/image9.jpg)  
+    
   - Windows卸载云硬盘。  
     ![](/storage_cdn/udisk/userguide/image10.jpg)  
     ![](/storage_cdn/udisk/userguide/image11.jpg)  
+    
   - 通过云盘控制台，卸载云硬盘。  
     ![](/storage_cdn/udisk/userguide/image12.jpg)  
     ![](/storage_cdn/udisk/userguide/image13.jpg)  
