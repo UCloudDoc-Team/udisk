@@ -17,10 +17,10 @@
     ![](/storage_cdn/udisk/userguide/image9.jpg)  
     
   - Windows卸载云硬盘。  
-    ![](/storage_cdn/udisk/userguide/image10.jpg)  
-    ![](/storage_cdn/udisk/userguide/image11.jpg)  
+    ![](/images/userguide/image10.jpg)  
+    ![](/images/userguide/image11.jpg)  
     
   - 通过云盘控制台，卸载云硬盘。  
-    ![](/storage_cdn/udisk/userguide/image12.jpg)  
-    ![](/storage_cdn/udisk/userguide/image13.jpg)  
-    ![](/storage_cdn/udisk/userguide/image14.jpg)
+    ![](/images/userguide/image12.jpg)  
+    ![](/images/userguide/image13.jpg)  
+    ![](/images/userguide/image14.jpg)
