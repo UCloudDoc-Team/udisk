@@ -12,10 +12,10 @@
 
 * 选择需创建快照的云硬盘，点击“克隆”按钮。
 
-![](/storage_cdn/udisk/userguide/image17.jpg)  
+![](/images/userguide/image17.jpg)  
     
-![](/storage_cdn/udisk/userguide/image18.jpg) 
+![](/images/userguide/image18.jpg) 
     
 * 选择云主机管理页/云盘管理标签页，查看云盘信息。
   
-![](/storage_cdn/udisk/userguide/image19.jpg)
+![](/images/userguide/image19.jpg)
