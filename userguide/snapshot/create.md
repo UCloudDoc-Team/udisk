@@ -10,4 +10,4 @@
     
 * 选择云主机管理页/快照管理标签页，查看快照制作进度。  
 
-![](/image/userguide/snapshot/image3.jpg)
+![](/image/userguide/format/image3.jpg)
