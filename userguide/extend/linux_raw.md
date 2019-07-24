@@ -41,8 +41,10 @@
 
   * 执行e2fsck –f /dev/vdb 检查文件系统。  
     ![](/images/userguide/extend/image6.jpg)  
+    
   * 执行resize2fs /dev/vdb进行扩容操作。  
     ![](/images/userguide/extend/resize2fs.png)  
+    
   * 使用mount命令，重新挂载磁盘。  
     ![](/images/userguide/extend/mount.png)  
 
@@ -50,9 +52,12 @@
 
   * 执行xfs\_check /dev/vdb 检查文件系统。  
     ![](/images/userguide/extend/xfs_check.png)  
+    
   * 或xfs\_repair /dev/vdb命令 检查文件系统。  
     ![](/images/userguide/extend/xfs_repair.png)  
+    
   * 使用mount命令，重新挂载磁盘。  
     ![](/images/userguide/extend/mount2.png)  
+    
   * 执行xfs\_growfs命令扩容。  
     ![](/images/userguide/extend/xfs_growfs.png)
