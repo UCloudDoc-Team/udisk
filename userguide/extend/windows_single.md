@@ -1,6 +1,6 @@
 {{indexmenu_n>3}}
 
-# 单分区数据盘\_Windows
+# 单分区数据盘_Windows
 
 如果主机之前只划分过1个分区，并使用NTFS/FAT文件系统，那么可以使用如下方法进行扩容。  
 <WRAP center round important 60%>
@@ -15,40 +15,33 @@
 
 ### 操作须知：
 
-* 本示例环境版本：
-
+  * 本示例环境版本：
 ![](/images/userguide/extend/image19.jpg)  
 
-* 本示例中，Disk1为云硬盘挂载点，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。
+  * 本示例中，Disk1为云硬盘挂载点，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。
 
 ### 具体操作：
 
-* 查看当前挂载情况。 
-
+  * 查看当前挂载情况。 
 ![](/images/userguide/extend/image20.jpg)  
     
-* 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。  
-* 通过云盘控制台扩容云硬盘。  
+  * 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。\\  
+  * 通过云盘控制台扩容云硬盘。  
 
-![](/images/userguide/extend/image21.jpg)
-    
+![](/images/userguide/extend/image21.jpg)   
 ![](/images/userguide/extend/image22.jpg)  
 
-* 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。  
-* 挂载完成后，在操作系统内查看磁盘大小。
+  * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。\\  
+  * 挂载完成后，在操作系统内查看磁盘大小。
 
 ![](/images/userguide/extend/image23.jpg)  
 
-* 右键单击新分区D空白处，选择扩展卷。  
+  * 右键单击新分区D空白处，选择扩展卷。  
 
-![](/images/userguide/extend/image24.jpg) 
-    
-![](/images/userguide/extend/image25.jpg) 
-    
-![](/images/userguide/extend/image26.jpg) 
-    
+![](/images/userguide/extend/image24.jpg)    
+![](/images/userguide/extend/image25.jpg)     
+![](/images/userguide/extend/image26.jpg)     
 ![](/images/userguide/extend/image27.jpg) 
     
-* 查看扩容后分区情况。  
-
+  * 查看扩容后分区情况。  
 ![](/images/userguide/extend/image28.jpg)
