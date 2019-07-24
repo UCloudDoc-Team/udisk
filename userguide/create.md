@@ -23,13 +23,13 @@
 
 * 在“产品与服务”下拉菜单中，选择“云主机UHost”。  
 
-![](images/userguide/image1.png)
+![](images/userguide/image1.jpg)
 
 
 
 * 在“云主机 UHost”中，选择“云盘管理”Tab。  
 
-![](images/userguide/image1.2.png)
+![](images/userguide/image1.2.jpg)
 
 
 
