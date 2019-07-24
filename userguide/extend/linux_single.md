@@ -42,7 +42,7 @@
     
   * 使用fdisk命令删除原来的分区并创建新分区。  
   
-![](/images/userguide/extend/image16.png)  
+![](/images/userguide/extend/image16.jpg)  
     `注：删除分区不会造成数据盘内数据的丢失。`
 
 
