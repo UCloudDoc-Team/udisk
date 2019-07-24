@@ -6,8 +6,8 @@
   
 ![](/images/userguide/extend/image4.jpg)  
     
-![](/images/userguide/extend/image5.jpg)  
+![](/images/userguide/extend/image5.png)  
     
 * 选择云主机管理页/云盘管理标签页，查看云盘信息。  
   
-![](/images/userguide/extend/image6.jpg)
+![](/images/userguide/extend/image3.png)
