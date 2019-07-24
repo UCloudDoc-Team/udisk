@@ -97,7 +97,7 @@
 
 **ext文件系统**  
 
-* 执行e2fsck –f /dev/vdb1命令检查文件系统。  
+* 执行e2fsck -f /dev/vdb1命令检查文件系统。  
 
 ![](/images/userguide/extend/e2fsck-2tib-2.png)  
     
