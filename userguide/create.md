@@ -21,23 +21,32 @@
 
 ### 具体操作：
 
-  - 在“产品与服务”下拉菜单中，选择“云主机UHost”。  
-    ![](images/userguide/image1.png)
+* 在“产品与服务”下拉菜单中，选择“云主机UHost”。  
+
+![](images/userguide/image1.png)
 
 
 
-  - 在“云主机 UHost”中，选择“云盘管理”Tab。  
-    ![](/storage_cdn/udisk/userguide/image1.2.png)
+* 在“云主机 UHost”中，选择“云盘管理”Tab。  
+
+![](images/userguide/image1.2.png)
 
 
 
-  - 点击“创建云硬盘”按钮，在弹出框中自定义硬盘名称和硬盘容量等信息，选择相应的付费方式。  
-    ![](/storage_cdn/udisk/userguide/image2.jpg)  
-    ![](/storage_cdn/udisk/userguide/image3.jpg)
+* 点击“创建云硬盘”按钮，在弹出框中自定义硬盘名称和硬盘容量等信息，选择相应的付费方式。 
+
+![](images/userguide/image2.jpg)  
+
+![](images/userguide/image3.jpg)
 
 云硬盘有普通云硬盘（SATA）和SSD云硬盘两种规格，也可以选择SSD云硬盘。
-![](/images/userguide/udisk_ssd_create01.png)
 
-  - 点击“确定”进入付费页面，完成支付后则云硬盘创建成功。  
-    ![](/storage_cdn/udisk/userguide/image4.jpg)  
-    ![](/storage_cdn/udisk/userguide/image5.jpg)
+![](images/userguide/udisk_ssd_create01.png)
+
+* 点击“确定”进入付费页面，完成支付后则云硬盘创建成功。 
+
+![](images/userguide/image4.jpg) 
+
+![](images/userguide/image5.jpg)
+
+
