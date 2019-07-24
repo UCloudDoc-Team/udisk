@@ -13,10 +13,8 @@
 
 ### 具体操作：
 
-* Linux卸载云硬盘，使用umount命令。  
-
-
-![](/images/userguide/image9.png)  
+- Linux卸载云硬盘，使用umount命令。  
+![](/images/userguide/image9.jpg)  
     
 
 * Windows卸载云硬盘。  
