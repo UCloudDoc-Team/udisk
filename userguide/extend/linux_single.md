@@ -63,16 +63,13 @@
 
 **xfs文件系统**  
 
-* 执行xfs\_repair /dev/vdb1检查文件系统。  
-
+  * 执行xfs\_repair /dev/vdb1检查文件系统。  
 ![](/images/userguide/extend/xfs_repair.png)  
-    
-* 使用mount命令，重新挂载磁盘。  
 
+  * 使用mount命令，重新挂载磁盘。  
 ![](/images/userguide/extend/mount2.png) 
     
-* 执行xfs\_growfs命令扩容。  
-
+  * 执行xfs\_growfs命令扩容。  
 ![](/images/userguide/extend/xfs_growfs2.png)
 
 
