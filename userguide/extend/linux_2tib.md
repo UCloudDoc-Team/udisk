@@ -89,6 +89,10 @@
   * 执行xfs\_growfs命令扩容。  
 ![](/images/userguide/extend/xfs_growfs-2tib.png)  
 
+
+
+
+
 #### ext文件系统
 
  * 执行e2fsck -f /dev/vdb1命令检查文件系统。  
