@@ -25,13 +25,13 @@
   * 查看当前挂载情况。  
 ![](/images/userguide/extend/image39.jpg)  
 
-  * 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。\\
+  * 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。
   * 通过云盘控制台扩容云硬盘。 
 
 ![](/images/userguide/extend/image40.jpg)      
 ![](/images/userguide/extend/image41.jpg)  
 
-  * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。\\  
+  * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。
   * 挂载完成后，在操作系统内查看磁盘大小。  
 
 ![](/images/userguide/extend/image42.jpg)  
