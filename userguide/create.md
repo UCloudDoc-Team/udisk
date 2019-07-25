@@ -6,9 +6,9 @@
 
   - 通过云盘管理控制台创建空数据盘。
   - 通过云盘管理控制台，克隆功能来创建数据盘。请参考:
-    操作指南-[](/storage_cdn/udisk/userguide/clone)
+    操作指南-[clone](/storage_cdn/udisk/userguide/clone)
   - 在快照管理控制台中，通过快照创建数据盘。请参考:
-    操作指南-[](/storage_cdn/udisk/userguide/snapshot/fromsnapshottodisk)
+    操作指南-[从快照创建数据盘](/storage_cdn/udisk/userguide/snapshot/fromsnapshottodisk)
   - 随实例一起创建数据盘。请参考:
     云主机用户手册-[briefguide](/compute/uhost/newuser/briefguide)
 
