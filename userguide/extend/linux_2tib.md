@@ -78,7 +78,7 @@
   * 检查文件系统、并扩容。  
     `注：不同文件系统下，检查和扩容的命令不同，请您确认自己的文件系统类型，并按照相应的操作步骤操作。`
 
-**xfs文件系统**  
+#### xfs文件系统
 
   * 执行xfs\_repair /dev/vdb1检查文件系统。 
 ![](/images/userguide/extend/xfs_repair-2tib.png)  
@@ -89,15 +89,15 @@
   * 执行xfs\_growfs命令扩容。  
 ![](/images/userguide/extend/xfs_growfs-2tib.png)  
 
-**ext文件系统**  
+#### ext文件系统
 
-  * 执行e2fsck -f /dev/vdb1命令检查文件系统。  
+ * 执行e2fsck -f /dev/vdb1命令检查文件系统。  
 ![](/images/userguide/extend/e2fsck-2tib-2.png)  
     
-  * 执行resize2fs /dev/vdb1进行扩容操作。  
+ * 执行resize2fs /dev/vdb1进行扩容操作。  
 ![](/images/userguide/extend/resize2fs-2tib-2.png)  
     
-  * 使用mount命令，重新挂载磁盘。
+ * 使用mount命令，重新挂载磁盘。
 ![](/images/userguide/extend/mount-2tib-3.png)
 
 
