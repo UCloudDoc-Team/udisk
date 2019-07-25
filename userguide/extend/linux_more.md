@@ -47,7 +47,7 @@
 
 **ext文件系统**  
 
-  * 分别执行e2fsck –f /dev/vdb2和 resize2fs /dev/vdb2进行检查和扩容操作。  
+  * 分别执行e2fsck -f /dev/vdb2和 resize2fs /dev/vdb2进行检查和扩容操作。  
 ![](/images/userguide/extend/e2fsck-duo.png)  
 
   * 使用mount命令，重新挂载磁盘。  
