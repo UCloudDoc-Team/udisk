@@ -32,6 +32,7 @@ Linux: yum install fio.x86_64
 ```
 fio -direct=1 -iodepth=1 -rw=read -ioengine=libaio -bs=4k -size=200G -numjobs=1 -runtime=1000 -group_reporting -name=test -filename=/data/test
 ```
+
 * 吞吐性能测试：
 ```
 fio -direct=1 -iodepth=32 -rw=write -ioengine=libaio -bs=256k -size=200G -numjobs=4 -runtime=1000 -group_reporting -name=test -filename=/data/test
@@ -103,23 +104,31 @@ RunFio 16 32 4k randwrite /dev/vdb
 **测试说明** 
 
 1. 因测试环境而异，脚本中您需要修改的命令行有：
-    + 命令行list=`cat /sys/block/vdb/mq/*/cpu_list | awk '{if(i<=NF) print $i;}' i="$i" | tr -d ',' | tr '\n' ','`中的vdb。   
-    + 命令行RunFio 8 64 4k randwrite /dev/vdb中的8、64、4k、randwrite和/dev/vdb。
+
+    * 命令行list=`cat /sys/block/vdb/mq/*/cpu_list | awk '{if(i<=NF) print $i;}' i="$i" | tr -d ',' | tr '\n' ','`中的vdb。
+    
+    * 命令行RunFio 8 64 4k randwrite /dev/vdb中的8、64、4k、randwrite和/dev/vdb。
+    
 2. 直接测试裸盘会破坏文件系统结构。如果云盘上的数据丢失不影响业务，可以设置filename=[设备名，如本示例中的/dev/vdb]。否则，请设置为filename=[具体的文件路径，比如/mnt/test.image]。
 
 **脚本解读** 
 
 *块设备参数*
 
-  * 测试实例时，脚本中的命令echo 2 > /sys/block/vdb/queue/rq_affinity是将云主机中的块设备中的参数 rq_affinity值修改为 2。   
+  * 测试实例时，脚本中的命令echo 2 > /sys/block/vdb/queue/rq_affinity是将云主机中的块设备中的参数 rq_affinity值修改为 2。 
+  
   * 参数 rq_affinity 的值为 1 时，表示块设备收到 I/O 完成（I/O Completion）的事件时，这个 I/O 被发送回处理这个 I/O 下发流程的 vCPU 所在 Group 上处理。在多线程并发的情况下，I/O Completion 就可能集中在某一个 vCPU 上执行，这样会造成瓶颈，导致性能无法提升。
+  
   * 参数 rq_affinity 的值为 2 时，表示块设备收到 I/O Completion 的事件时，这个 I/O 会在当初下发的 vCPU 上执行。在多线程并发的情况下，就可以完全充分发挥各个 vCPU 的性能。
 
 *绑定对应的 vCPU*
 
   * 通常模式下，一个设备（Device）只有一个请求列表（Request-Queue）。在多线程并发处理 I/O 的情况下，这个唯一的 Request-Queue 就是一个性能瓶颈点。最新的多队列（Multi-Queue）模式下，一个设备（Device）可以拥有多个处理 I/O 的 Request-Queue，可以充分发挥后端存储的性能。 
+  
   * 如果您有 4 个 I/O 线程，您需要将 4 个线程分别绑定在不同的 Request-Queue 对应的 CPU Core 上，这样就可以充分利用 Multi-Queue 提升性能。
+  
   * 为了充分发挥设备（Device）的性能，需要将 I/O 线程分发到不同的 Request-Queue 上处理。脚本中通过fio —ioengine=libaio —runtime=30s —numjobs=${numjobs} —iodepth=${iodepth} —bs=${bs} —rw=${rw} —filename=${filename} —time_based=1 —direct=1 —name=test —group_reporting —cpus_allowed=$spincpu —cpus_allowed_policy=split，分别将几个 jobs 绑定不同的 CPU Core 上，其中 vd 为您的云盘设备名，例如，/dev/vdb。
+  
   * fio 提供了参数 cpusallowed 以及 cpus_allowed_policy 来绑定 vCPU。以上命令一共运行了几个 jobs，分别绑定在几个 CPU Core上，分别对应着不同的 Queue_Id。运行 ls /sys/block/vd/mq/ 查看设备名为 vd 云盘的 Queue_Id，例如 vdb。运行 cat /sys/block/vd/mq//cpu_list 查看对应设备名为 vd* 云盘的 Queue* 绑定到的 cpu_core_id。
 
 
