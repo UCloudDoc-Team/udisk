@@ -11,17 +11,17 @@ Linux: yum install fio.x86_64
 
 | 参数 | 说明 |
 | ------ | ------ |
-| -direct=1 | 忽略缓存，直接写入磁盘 |
-| -iodepth=128 | 请求的IO队列深度 |
-| -rw=write | 读写策略，可选值randread(随机读)，randwrite(随机写)，read(顺序读)，write(顺序写)，randrw(混合随机读写) |
-| -ioengine=libaio | IO引擎配置，建议使用libaio |
-| -bs=4k | 块大小配置，可以使用4k，8k，16k等 |
-| -size=200G | 测试生成文件的大小 |
-| -numjobs=1 | 线程数配置 |
-| -numtime=1000 | 测试运行时长，单位秒 |
-| -group_reporting | 测试结果汇总展示 |
-| -name=test | 测试任务名称 |
-| -filename=/data/test | 测试输出的路径与文件名 |
+| \-direct=1 | 忽略缓存，直接写入磁盘 |
+| \-iodepth=128 | 请求的IO队列深度 |
+| \-rw=write | 读写策略，可选值randread(随机读)，randwrite(随机写)，read(顺序读)，write(顺序写)，randrw(混合随机读写) |
+| \-ioengine=libaio | IO引擎配置，建议使用libaio |
+| \-bs=4k | 块大小配置，可以使用4k，8k，16k等 |
+| \-size=200G | 测试生成文件的大小 |
+| \-numjobs=1 | 线程数配置 |
+| \-numtime=1000 | 测试运行时长，单位秒 |
+| \-group_reporting | 测试结果汇总展示 |
+| \-name=test | 测试任务名称 |
+| \-filename=/data/test | 测试输出的路径与文件名 |
  
 
 
