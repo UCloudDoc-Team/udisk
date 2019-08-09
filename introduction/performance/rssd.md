@@ -5,6 +5,10 @@
 Linux: yum install fio.x86_64    
 
 #### fio参数说明
+
+
+
+
 | 参数 | 说明 |
 | ------ | ------ |
 | -direct=1 | 忽略缓存，直接写入磁盘 |
@@ -18,7 +22,9 @@ Linux: yum install fio.x86_64
 | -group_reporting | 测试结果汇总展示 |
 | -name=test | 测试任务名称 |
 | -filename=/data/test | 测试输出的路径与文件名 |
-    
+ 
+
+
 常见测试用例如下：
 
 * 时延性能测试：
