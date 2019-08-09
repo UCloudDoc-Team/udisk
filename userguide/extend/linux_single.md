@@ -17,59 +17,58 @@
 
 ### 操作须知：
 
-  * 本示例使用fdisk命令作为案例，parted命令不能与fdisk命令交叉使用。  
+本示例使用fdisk命令作为案例，parted命令不能与fdisk命令交叉使用。  
   
 ![](/images/userguide/extend/image11.jpg)  
-    本示例中，云硬盘挂载点为/dev/vdb，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。  
+本示例中，云硬盘挂载点为/dev/vdb，请您根据实际情况操作。若没有查看到相应设备，请您检查云硬盘挂载信息与状态。  
 
 
 ### 具体操作：
 
-  * 查看当前挂载情况、文件系统类型以及分区情况。。  
+查看当前挂载情况、文件系统类型以及分区情况。。  
   
 ![](/images/userguide/extend/df-h2.png)  
     `注：lsblk命令结果显示 vdb下只有一个分区vdb1，为单分区，可按照本文档所述方案扩容。其它情况请参考相应的文档进行扩容。`  
     
-  * 在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。通过云盘控制台扩容云硬盘。  
+在操作系统与控制台中卸载云硬盘，具体步骤见卸载云硬盘章节。通过云盘控制台扩容云硬盘。  
   
 ![](/images/userguide/extend/image13.png)     
 
 ![](/images/userguide/extend/image14.png)  
     
-  * 在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。挂载完成后，在操作系统内查看磁盘大小。  
+在控制台中挂载云硬盘，具体步骤见挂载云硬盘章节。挂载完成后，在操作系统内查看磁盘大小。  
   
 ![](/images/userguide/extend/image15.png)  
     
-  * 使用fdisk命令删除原来的分区并创建新分区。  
+使用fdisk命令删除原来的分区并创建新分区。  
   
 ![](/images/userguide/extend/image16.png)  
     `注：删除分区不会造成数据盘内数据的丢失。`
 
 
 
-  * 检查文件系统, 并扩容。  
+检查文件系统, 并扩容。  
     `注：不同文件系统下，检查和扩容的命令不同，请您确认自己的文件系统类型，并按照相应的操作步骤操作。`  
 
 **ext4文件系统**  
 
-* 分别执行e2fsck -f /dev/vdb1和 resize2fs /dev/vdb1进行检查和扩容操作。 
+分别执行e2fsck -f /dev/vdb1和 resize2fs /dev/vdb1进行检查和扩容操作。 
 
 ![](/images/userguide/extend/e2fsck-f.png)
 
-
-* 使用mount命令，重新挂载磁盘。  
+使用mount命令，重新挂载磁盘。  
 
 ![](/images/userguide/extend/image18.png)  
 
 **xfs文件系统**  
 
-  * 执行xfs\_repair /dev/vdb1检查文件系统。  
+执行xfs\_repair /dev/vdb1检查文件系统。  
 ![](/images/userguide/extend/xfs_repair.png)  
 
-  * 使用mount命令，重新挂载磁盘。  
+使用mount命令，重新挂载磁盘。  
 ![](/images/userguide/extend/mount2.png) 
     
-  * 执行xfs\_growfs命令扩容。  
+执行xfs\_growfs命令扩容。  
 ![](/images/userguide/extend/xfs_growfs2.png)
 
 
