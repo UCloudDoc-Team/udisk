@@ -48,10 +48,10 @@
 
 * 修改/etc/fstab文件，使数据盘能随系统启动自动挂载。  
   查看UUID命令。推荐使用UUID来配置挂载信息，避免linux盘符分配机制中可能会造成的盘符漂移现象。
-  ![](/images/userguide/format/image7.jpg)
+![](/images/userguide/format/image7.jpg)
 
   使用命令echo UUID="910d2922-38f2-4b16-b5cc-a55d2c60cb3c" /mnt ext4 defaults 0 0 \>\> /etc/fstab。
-  ![](/images/userguide/format/image6.jpg)
+![](/images/userguide/format/image6.jpg)
 
 * 使用mount命令挂载磁盘。  
 ![](/images/userguide/format/image8.jpg)
