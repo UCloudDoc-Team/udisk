@@ -1,4 +1,4 @@
-{{indexmenu_n>2}}
+
 #### 测试工具
 使用[fio](https://github.com/axboe/fio)工具，建议使用libaio引擎测试
 #### 安装方法
