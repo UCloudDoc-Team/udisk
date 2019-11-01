@@ -3,7 +3,7 @@
 # 2TiB数据盘分区扩容_Linux
 
 本操作示例针对磁盘容量大于2TiB，无法通过fdisk命令进行分区的场景，通过parted命令进行分区。如果主机磁盘容量大于2TiB，那么可以使用如下方法进行分区，扩容。  
-<WRAP center round important 60%>
+
 
 ### 注意：
 
@@ -12,9 +12,7 @@
 云硬盘只有当处于可用状态时才可以扩容。由于需要 云硬盘，故会中断您的业务，所以请您谨慎操作。  
 使用parted命令之后及时生效，请您确认操作之后再执行命令。  
 分区完成之后需要单独格式化，否则不能直接使用。  
-</WRAP>
 
------
 
 ### 操作须知：
 
@@ -28,7 +26,7 @@
 
 **新购数据盘分区**  
 
-  * 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](https://cms.docs.ucloudadmin.com/storage_cdn/udisk/userguide/mount)章节。  
+  * 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](/storage_cdn/udisk/userguide/mount)章节。  
   * 挂载完成后，在操作系统内查看磁盘大小。  
 
 ![](/images/userguide/extend/fdisk-2tib.png)  
