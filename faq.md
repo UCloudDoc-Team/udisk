@@ -8,7 +8,7 @@
 
 ## 云硬盘开放购买的区域？
 
-请参考: 产品简介-[](/storage_cdn/udisk/introduction/limit)
+请参考: 产品简介-[产品限制](/storage_cdn/udisk/introduction/limit)
 
 ## 云硬盘使用或购买是否有限制？
 
