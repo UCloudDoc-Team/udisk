@@ -51,28 +51,6 @@ fio -direct=1 -iodepth=32 -rw=randread  -ioengine=libaio -bs=4k -size=200G -numj
 fio -direct=1 -iodepth=32 -rw=randwrite -ioengine=libaio -bs=4k -size=200G -numjobs=4 -runtime=1000 -group_reporting -name=test -filename=/data/test
 ```
 
-### RSSD性能和实例性能关系
-
-虚机实例的IO性能与其CPU配置成正比线性关系，虚机核数越多可获得的存储IOPS和吞吐量越高
-
-* 如果RSSD云盘的性能不超过实例对应的IO存储能力，实际存储性能以RSSD云盘性能为准
-* 如果RSSD云盘的性能超过了实例对应的IO存储能力，实际存储性能以该实例对应的存储性能为准
-* 如果实例核数不在下表中，则实例性能是为不超过该核数的最大性能，例如CPU核数为50，则其存储IO性能与48核相同。
-
-|vCPU（核） |存储IOPS（万）|存储吞吐量（MB/s）|
-| ------ |-----| ------ |
-| 1 |1.8|75|
-| 2 |3.8|150|
-| 4 |7.5|300|
-| 8 |15|600|
-| 12 |22.5|900|
-| 16 |30|1200|
-| 24 |45|1800|
-| 32 |60|2400|
-| 48 |90|3600|
-| 64 |120|4800|
-
-
 ## RSSD性能测试
 由于压测云盘的性能时，云盘本身以及压测条件都起着重要的作用。为了充分发挥出多核多并发的系统性能，压测出RSSD云盘120万IOPS性能指标，您可以参考以下rssd_test.sh脚本：
 
