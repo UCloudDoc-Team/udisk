@@ -26,7 +26,7 @@
 
 **新购数据盘分区**  
 
-  * 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](/storage_cdn/udisk/userguide/mount)章节。  
+  * 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](udisk/userguide/mount)章节。  
   * 挂载完成后，在操作系统内查看磁盘大小。  
 
 ![](/images/userguide/extend/fdisk-2tib.png)  
@@ -57,11 +57,11 @@
 
 
 
-  * 在操作系统与控制台中卸载云硬盘，具体步骤见[卸载云硬盘](/storage_cdn/udisk/userguide/umount)章节。通过云盘控制台扩容云硬盘。   
+  * 在操作系统与控制台中卸载云硬盘，具体步骤见[卸载云硬盘](udisk/userguide/umount)章节。通过云盘控制台扩容云硬盘。   
 ![](/images/userguide/extend/image-2tib-1.png)  
 ![](/images/userguide/extend/image-2tib-2.png)  
     
-  * 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](/storage_cdn/udisk/userguide/mount)章节。挂载完成后，在操作系统内查看磁盘大小。
+  * 在控制台挂载云硬盘，具体步骤见[挂载云硬盘](udisk/userguide/mount)章节。挂载完成后，在操作系统内查看磁盘大小。
 
 ![](/images/userguide/extend/fdisk-2tib-2.png)
     
