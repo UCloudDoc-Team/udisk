@@ -2,8 +2,6 @@
 
 # 卸载云硬盘
 
-<WRAP center round important 60%>
-
 ### 注意：
 
 您只能卸载数据盘，不能卸载系统盘。  
