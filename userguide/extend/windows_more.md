@@ -3,7 +3,6 @@
 # 多分区数据盘_Windows
 
 如果主机之前划分过多个分区，并使用NTFS/FAT文件系统，那么可以使用如下方法进行扩容。  
-<WRAP center round important 60%>
 
 ### 注意：
 
