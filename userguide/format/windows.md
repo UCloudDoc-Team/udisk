@@ -2,8 +2,6 @@
 
 # Windows
 
-<WRAP center round important 60%>
-
 ### 注意：
 
 **磁盘格式化操作前请确认，若数据盘中有数据，建议您先备份数据。** </WRAP>
