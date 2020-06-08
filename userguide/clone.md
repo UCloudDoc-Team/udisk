@@ -19,4 +19,4 @@
     
 * 选择云主机管理页/云盘管理标签页，查看云盘信息。
   
-![](/images/userguide/image19.jpg)
+![](/images/userguide/image19.jpg) 
