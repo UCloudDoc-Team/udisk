@@ -28,11 +28,3 @@
 | 胡志明 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
 | 华盛顿 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
 | 洛杉矶 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 东京 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 法兰克福 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 莫斯科 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 曼谷 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 曼谷 | 可用区B | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 孟买 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 拉各斯 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 马尼拉 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
