@@ -1,7 +1,7 @@
 # 概览
 
 * 产品简介
-    * [产品概述.](/udisk/introduction/overview)
+    * [产品概述](/udisk/introduction/overview)
     * [产品优势](/udisk/introduction/advantages)
     * [应用场景](/udisk/introduction/scenario)
     * [主要概念](/udisk/introduction/concepts)
