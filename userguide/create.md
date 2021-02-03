@@ -24,14 +24,7 @@
 
 ![](/images/userguide/CreateUDisk-1.png)
 
-
-
-* 在“云主机 UHost”中，选择“云盘管理”Tab。  
-
-![](/images/userguide/CreateUDisk-2.png)
-
-
-
+* 在“云主机 UHost”中，选择“云盘管理”Tab。
 * 点击“创建云硬盘”按钮，在弹出框中自定义硬盘名称和硬盘容量等信息，选择相应的付费方式。 
 
 ![](/images/userguide/CreateUDisk-2.png)  
