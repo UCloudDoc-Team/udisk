@@ -18,7 +18,7 @@ Linux: yum install fio.x86_64
 | \-bs=4k | 块大小配置，可以使用4k，8k，16k等 |
 | \-size=200G | 测试生成文件的大小 |
 | \-numjobs=1 | 线程数配置 |
-| \-numtime=1000 | 测试运行时长，单位秒 |
+| \-runtime=1000 | 测试运行时长，单位秒 |
 | \-group_reporting | 测试结果汇总展示 |
 | \-name=test | 测试任务名称 |
 | \-filename=/data/test | 测试输出的路径与文件名 |
