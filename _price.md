@@ -11,20 +11,20 @@
 <!-- udocs:price -->
 | 地域 | 可用区 | 云盘类型 |  预付费 | 后付费| 操作 |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| 华北一 | 可用区B | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 华北一 | 可用区C | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 华北一 | 可用区D | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 华北一 | 可用区E | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 上海二 | 可用区A | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 上海二 | 可用区B | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 上海二 | 可用区C | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 广州 | 可用区B | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 华北（北京2） | 可用区B | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 华北（北京2） | 可用区C | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 华北（北京2） | 可用区D | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 华北（北京2） | 可用区E | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 华东（上海2） | 可用区A | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 华东（上海2） | 可用区B | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 华东（上海2） | 可用区C | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 华南（华南（广州）） | 可用区B | 普通云盘 | 0.01元/小时/10G, 3元/月/10G, 30元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
 | 香港 | 可用区A | 普通云盘 | 0.01元/小时/10G, 6.3元/月/10G, 63元/年/10G | 0.01元/小时/10G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
 | 香港 | 可用区B | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 台北 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 首尔 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 台湾（台湾（台北）） | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 韩国（韩国（首尔）） | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
 | 新加坡 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 雅加达 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 胡志明市 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 华盛顿 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
-| 洛杉矶 | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 印度尼西亚（印度尼西亚（雅加达）） | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 越南（胡志明） | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 美国（美国（华盛顿）） | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
+| 美国（美国（洛杉矶）） | 可用区A | 普通云盘 | 0.01元/小时/10G, 4元/月/10G, 40元/年/10G | 0.01元/小时/20G| [立即购买](https://www.ucloud.cn/site/product/udisk.html) |
